@@ -13,8 +13,8 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 
 /**
- * Страничка авторизации
- * Проводит авторизацию пользователя
+ * Auth Page
+ * Handles auth user
  */
 export const Login = () => {
   const [email, setEmail] = useState('');
